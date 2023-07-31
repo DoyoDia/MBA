@@ -1,0 +1,17 @@
+{
+    "Sub_StartUp":{
+        "is_Sub":true,
+        "next":[
+            ""
+        ],
+        "timeout": 5000,
+        "timeout_next": [
+            "Sub_StartBA"
+        ]
+    },
+    "Sub_StartBA": {
+        "is_sub": true,
+        "action": "StartApp",
+        "package": "com.nexon.bluearchive.MxUnityPlayerActivity"
+    }
+}
